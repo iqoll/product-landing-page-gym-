@@ -40,3 +40,66 @@ body {
     }
 
 }
+
+a {
+    color: #F2F2F2;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section,
+footer {
+    padding: 5em 2em;
+}
+
+.hero {
+    background-image: url(../images/gym-bg\(1920\ x\ \ 1280\).jpg);
+    background-position: center center;
+    color: white;
+
+
+    .container {
+
+        h1 {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 2.5em;
+            margin-bottom: 0;
+        }
+
+        span {
+            color: var(--primary-color);
+        }
+
+        p {
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-top: .2em;
+        }
+
+        .primary-cta {
+            background-color: var(--primary-color);
+            color: #444444;
+            text-decoration: none;
+            padding: .6em 1.3em;
+            font-size: 1.4em;
+            border-radius: 5em;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .watch-video-cta {
+            display: flex;
+            margin-top: 1em;
+
+            img {
+                margin-right: .5em;
+            }
+        }
+    }
+
+}

@@ -1,1 +1,86 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=UnifrakturMaguntia&display=swap");
+:root {
+  --primary-color: #E9FF00;
+}
+
+body {
+  background: hsl(0deg, 0%, 11.37%);
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.navbar {
+  background: #444444;
+  padding: 1em;
+}
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+}
+.navbar .logo span {
+  color: var(--primary-color);
+}
+.navbar nav {
+  display: none;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+a {
+  color: #F2F2F2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section,
+footer {
+  padding: 5em 2em;
+}
+
+.hero {
+  background-image: url(../images/gym-bg\(1920\ x\ \ 1280\).jpg);
+  background-position: center center;
+  color: white;
+}
+.hero .container h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+.hero .container span {
+  color: var(--primary-color);
+}
+.hero .container p {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 0.2em;
+}
+.hero .container .primary-cta {
+  background-color: var(--primary-color);
+  color: #444444;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+.hero .container .watch-video-cta {
+  display: flex;
+  margin-top: 1em;
+}
+.hero .container .watch-video-cta img {
+  margin-right: 0.5em;
+}/*# sourceMappingURL=main.css.map */
