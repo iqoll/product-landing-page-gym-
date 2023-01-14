@@ -217,4 +217,107 @@ nav li a:hover {
   float: right;
   margin: 0.5em;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu,
+.mobile-menu-exit {
+    display: none;
+  }
+  .navbar .container {
+    display: grid;
+    grid-template-columns: 180px auto;
+    justify-content: unset;
+  }
+  .navbar nav {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .navbar nav ul {
+    display: flex;
+  }
+  .navbar nav a {
+    font-size: 1em;
+    padding: 0.1em 1em;
+  }
+  .navbar nav ul.primary-nav {
+    margin: 0;
+  }
+  .navbar nav li a.get-membership-cta {
+    color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+    font-weight: bold;
+    border-radius: 5em;
+    margin-top: -0.2em;
+  }
+  .navbar nav li a.get-membership-cta:hover {
+    background-color: var(--primary-color);
+    color: #444444;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .container {
+    width: 1080px;
+    margin: 0 auto;
+  }
+  section {
+    padding: 10em 4em;
+  }
+  ul.facilities-list {
+    display: block;
+    margin-left: 5em;
+  }
+  ul.facilities-list li {
+    font-size: 1.4em;
+  }
+  ul.facilities-list li:before {
+    width: 30px;
+    height: 30px;
+  }
+  .facilities-section {
+    position: relative;
+  }
+  .facilities-section img {
+    display: block;
+    position: absolute;
+    width: 350px;
+    right: 0;
+    top: 334px;
+  }
+  .facilities-section img.img-2 {
+    display: block;
+    position: absolute;
+    width: 350px;
+    right: 0;
+    top: -1px;
+  }
+  .contact-section {
+    position: relative;
+  }
+  .contact-section .container {
+    display: flex;
+  }
+  .contact-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45%;
+    height: 100%;
+  }
+  .contact-right iframe {
+    height: 100%;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+  }
 }/*# sourceMappingURL=main.css.map */
